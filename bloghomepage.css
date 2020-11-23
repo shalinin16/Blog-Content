@@ -1,0 +1,196 @@
+/*Body:
+-Give the body element a relative position for the scrollspy to work.
+-Add a font family to the whole page */
+body{
+     background: url(
+https://cdn.pixabay.com/photo/2015/07/02/10/13/sky-828648__340.jpg)
+no-repeat center center;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Vollkorn', sans-serif;
+    position: relative;
+}
+
+@media (max-device-width:768px){
+    body{
+        background: url((https://cdn.pixabay.com/photo/2015/07/02/10/13/sky-828648__340.jpg) center center fixed;
+        background-size: cover;
+    }
+
+}
+
+
+#home{
+    background-color: transparent;
+    color: #fff;
+    text-align: center;
+    padding-top: 15%;
+}
+#home h1{
+    margin-bottom: 30px;   
+}
+#home h2{
+    margin-bottom: 50px;   
+}
+
+
+/*Style the About section: 
+-add padding-top so that the nav link is active before the carousel hits the top border of the page-
+-Limit its width in big devices to 1000px-
+-make headings bold and set the dimensions of pictures */
+.container{
+    max-width: 1000px;   
+}
+#about{
+    color: #fff;
+    text-align: center;
+    padding-top: 100px;
+}
+#about h2{
+    font-weight: bold;
+}
+#about p{
+    font-size: 17px;
+    margin-bottom: 30px;
+}
+.aboutImage{
+    height: 120px;   
+}
+
+/*Style the footer*/
+.footer{
+    background-color: rgba( 140, 124, 222, 0.247 );
+    color: #fff;
+    padding: 10px 0;
+    margin-top: 150px;
+    font-size: 18px;
+/*    background-image: -webkit-gradient(linear, left 0%, left 100%, from(#274f80), to(#1b3759));*/
+/*
+  background-image: -webkit-linear-gradient(top, #274f80, 0%, #1b3759, 100%);
+  background-image: -moz-linear-gradient(top, #274f80 0%, #1b3759 100%);
+  background-image: linear-gradient(to bottom, #274f80 0%, #1b3759 100%);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff274f80', endColorstr='#ff1b3759', GradientType=0);
+*/
+}
+
+
+/*Style the navigation bar using a navbar css generator*/
+
+.navbar-custom {
+  font-size: 18px;
+  background-color:  rgba( 140, 124, 222, 0.247 );
+  border-color: #132740;
+/*
+  background-image: -webkit-gradient(linear, left 0%, left 100%, from(#274f80), to(#1b3759));
+  background-image: -webkit-linear-gradient(top, #274f80, 0%, #1b3759, 100%);
+  background-image: -moz-linear-gradient(top, #274f80 0%, #1b3759 100%);
+  background-image: linear-gradient(to bottom, #274f80 0%, #1b3759 100%);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff274f80', endColorstr='#ff1b3759', GradientType=0);
+*/
+}
+.navbar-custom .navbar-brand {
+  color: #fff;
+}
+.navbar-custom .navbar-brand:hover,
+.navbar-custom .navbar-brand:focus {
+  color: #fff;
+  background-color: transparent;
+}
+.navbar-custom .navbar-text {
+  color: #c0c0c0;
+}
+.navbar-custom .navbar-nav > li:last-child > a {
+  border-right: 1px solid #132740;
+}
+.navbar-custom .navbar-nav > li > a {
+  color: #c0c0c0;
+  border-left: 1px solid #132740;
+}
+.navbar-custom .navbar-nav > li > a:hover,
+.navbar-custom .navbar-nav > li > a:focus {
+  color: #ffffff;
+  background-color: transparent;
+}
+.navbar-custom .navbar-nav > .active > a,
+.navbar-custom .navbar-nav > .active > a:hover,
+.navbar-custom .navbar-nav > .active > a:focus {
+  color: #ffffff;
+  background-color: #9691f7;
+  background-image: -webkit-gradient(linear, left 0%, left 100%, from(#9691f7), to(#9c87e8));
+  background-image: -webkit-linear-gradient(top, #132740, 0%, #9c87e8, 100%);
+  background-image: -moz-linear-gradient(top, #132740 0%, #1f3f67 100%);
+  background-image: linear-gradient(to bottom, #132740 0%, #1f3f67 100%);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff132740', endColorstr='#ff1f3f67', GradientType=0);
+}
+.navbar-custom .navbar-nav > .disabled > a,
+.navbar-custom .navbar-nav > .disabled > a:hover,
+.navbar-custom .navbar-nav > .disabled > a:focus {
+  color: #cccccc;
+  background-color: transparent;
+}
+.navbar-custom .navbar-toggle {
+  border-color: #dddddd;
+}
+.navbar-custom .navbar-toggle:hover,
+.navbar-custom .navbar-toggle:focus {
+  background-color: #dddddd;
+}
+.navbar-custom .navbar-toggle .icon-bar {
+  background-color: #cccccc;
+}
+.navbar-custom .navbar-collapse,
+.navbar-custom .navbar-form {
+  border-color: #13263e;
+}
+.navbar-custom .navbar-nav > .dropdown > a:hover .caret,
+.navbar-custom .navbar-nav > .dropdown > a:focus .caret {
+  border-top-color: #ffffff;
+  border-bottom-color: #ffffff;
+}
+.navbar-custom .navbar-nav > .open > a,
+.navbar-custom .navbar-nav > .open > a:hover,
+.navbar-custom .navbar-nav > .open > a:focus {
+  background-color: #6c66d0;
+  color: #ffffff;
+}
+.navbar-custom .navbar-nav > .open > a .caret,
+.navbar-custom .navbar-nav > .open > a:hover .caret,
+.navbar-custom .navbar-nav > .open > a:focus .caret {
+  border-top-color: #ffffff;
+  border-bottom-color: #ffffff;
+}
+.navbar-custom .navbar-nav > .dropdown > a .caret {
+  border-top-color: #c0c0c0;
+  border-bottom-color: #c0c0c0;
+}
+@media (max-width: 767) {
+  .navbar-custom .navbar-nav .open .dropdown-menu > li > a {
+    color: #c0c0c0;
+  }
+  .navbar-custom .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-custom .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #ffffff;
+    background-color: transparent;
+  }
+  .navbar-custom .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-custom .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-custom .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #ffffff;
+    background-color: #746eec;
+  }
+  .navbar-custom .navbar-nav .open .dropdown-menu > .disabled > a,
+  .navbar-custom .navbar-nav .open .dropdown-menu > .disabled > a:hover,
+  .navbar-custom .navbar-nav .open .dropdown-menu > .disabled > a:focus {
+    color: #cccccc;
+    background-color: transparent;
+  }
+}
+.navbar-custom .navbar-link {
+  color: #c0c0c0;
+}
+.navbar-custom .navbar-link:hover {
+  color: #ffffff;
+}

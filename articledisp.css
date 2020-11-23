@@ -1,0 +1,32 @@
+body{
+    background-image:url('https://image.shutterstock.com/image-photo/blurred-white-gradient-colorful-light-260nw-1693320463.jpg');
+    background-size:cover;
+    //background-repeat:no-repeat;
+    //margin:0;
+  }
+
+    table{
+        margin: 45px;
+            border-collapse: collapse;
+            width:90%; 
+            align-content: center;
+        }
+        table, tr, td{
+            border:2px solid black;
+        }
+        th
+        {
+            height:50px;
+            text-align: center;
+            background-color: black;
+            color: white;
+        }
+        td{
+            height:50px;
+            vertical-align: baseline;
+            padding:10px;
+            
+        }
+        tr:hover{
+            background-color: lightcoral;
+        }

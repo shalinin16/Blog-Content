@@ -1,0 +1,188 @@
+/*styling.css*/
+body{
+/*    font: Arvo, Helvetica, sans-serif;*/
+/*     font-family: timesnewroman, serif;*/
+     background: url(https://image.shutterstock.com/image-photo/blurred-white-gradient-colorful-light-260nw-1693320463.jpg);
+repeat center center;
+     background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Vollkorn', sans-serif;
+}
+
+#container {
+    width: 800px;
+/*    border: 1px solid grey;*/
+    margin: 0 auto;
+}
+
+#header{
+    height: 35px;
+    padding: 0 0;
+    margin-bottom: 0;
+}
+
+#brand{
+    float: left;   
+}
+p{
+    margin-top:3px;
+    margin-bottom:15px;
+}
+h1{
+    margin:0;
+}
+h4{
+    font-size:20px;
+    font-weight: ;
+    color: cadetblue;
+}
+
+h1 a{
+    font-size: 30px; 
+    font-weight: 100;
+    color: saddlebrown;
+    text-decoration: none;
+}
+
+ul li{
+    font-size: 18px;
+    padding: 10px;
+    
+}
+/*
+
+#searchBox{
+    float: right;
+    background: linear-gradient(#E4F2B9, #B7E953);
+    background: -webkit-linear-gradient(#E4F2B9, #B7E953);
+    background: -o-linear-gradient(#E4F2B9, #B7E953);
+    background: -moz-linear-gradient(#E4F2B9, #B7E953);
+    width: 400px;
+    height: 50px;
+    padding: 20px 20px 0 20px;
+    margin-top: 20px;
+}
+*/
+
+/*
+.text{
+    float: left; 
+    width: 200px;
+    padding: 5px;
+    font-size: 15px;
+    color: #E36A0C;
+    background: white url(images/search.png) right center no-repeat;
+    border: 1px solid #C8D03E;
+}
+*/
+
+.submit{
+    float: right;
+    padding: 5px;
+    font-weight: bold;
+    color: white;
+    background: #A751D6;
+    font-size: 15px;
+    border: 1px solid #DCD5E1;
+}
+
+.clear{
+    clear: both;   
+}
+h3 h4 h1{
+    letter-spacing: 1px;
+    line-height: 1.5;
+}
+
+p{
+    letter-spacing: 1px;
+    line-height: 1.5;
+}
+#introduction{
+    background: ;
+    background: ; 
+    background:; 
+    background: ; 
+    padding: 10px;
+    margin: 0 0;
+}
+
+#introduction h3{
+    font-size: 25px;
+    color: darkcyan;
+    font-weight: bold;
+/*    font-style: italic;*/
+}
+
+#introduction p{
+    font-size: 18px; 
+    color: ;
+    text-align: justify;
+    padding: 3px;
+    font-weight: 500;
+}
+
+/*
+.sidebar{
+    height: 500px;
+    width: 450px;
+    border: 1px solid #BAF46F;
+    border-radius: 20px;
+    padding: 10px 30px;
+}
+
+.sidebar h3{
+    color: #B314DB;
+    font-size: 30px;
+}
+
+.sidebar ul{
+    padding-top: 8px;   
+}
+#leftsidebar ul li{
+    padding: 4px 0 4px 10px;
+    list-style-image: url(images/arrow.png);
+}
+
+#rightsidebar ul li{
+    padding: 17px 0 17px 70px;
+    background: url(images/tick.png) no-repeat left center;
+}
+.sidebar ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #5d12e7;
+    -webkit-transition: font-size 0.3s ease;
+    -moz-transition: font-size 0.3s ease;
+    -o-transition: font-size 0.3s ease;
+    -ms-transition: font-size 0.3s ease;
+    transition: font-size 0.3s ease;
+}
+
+.sidebar ul li a:hover, .sidebar ul li a.active{
+    text-decoration: none;
+    color: #B314DB;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+
+#leftsidebar{
+    float: left;   
+}
+
+#rightsidebar{
+    float: right;
+}
+*/
+
+/*
+.footer{
+    height: 60px;
+    background: linear-gradient(#F6F390, #D5D533);
+    background: -webkit-linear-gradient(#F6F390, #D5D533);
+    background: -o-linear-gradient(#F6F390, #D5D533);
+    background: -moz-linear-gradient(#F6F390, #D5D533);
+    padding: 10px 30px;
+    margin-top: 15px
+}*/
